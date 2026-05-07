@@ -214,6 +214,7 @@ html{
     min-height:100vh;
     padding:40px 5%;
     color:#fff;
+   flex-wrap: wrap;
 }
 
 .bg-video{
@@ -241,11 +242,14 @@ html{
     backdrop-filter:blur(10px);
     box-shadow:0 8px 32px rgba(0,0,0,.3);
     z-index:2;
+   flex: 1;
+    min-width: 300px;
 
 }
 
 .hero-img{
-    width:50%;
+   flex: 1;
+    min-width: 300px;
     text-align:center;
 }
 
@@ -654,7 +658,10 @@ html{
         font-size:15px;
         padding:14px;
     }
-
+.hero-inner{
+        flex-direction: column;
+        text-align: center;
+}
 }
 
 /* =================================
