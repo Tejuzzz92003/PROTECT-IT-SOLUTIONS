@@ -250,7 +250,7 @@ html{
 }
 
 .hero-img img{
-    width:50%;
+    width:100%;
     max-width:500px;
     height:auto;
     display:block;
